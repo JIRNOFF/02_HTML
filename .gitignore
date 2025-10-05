@@ -1,16 +1,30 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
-#####################################################
-*.sketch
-*.fig
-
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
-*.xd
-
-# Avoid your project being littered with annoying .DS_Store files!
+# OS-specific files
 .DS_Store
-.prettierignore
+Thumbs.db
+
+# Editor folders and settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / build / cache files
+*.log
+*.tmp
+*.bak
+*.cache
+.cache/
+tmp/
+temp/
+
+# System files
+~$*
+desktop.ini
+
+# Output directories (if you export something manually)
+dist/
+build/
+
+# Ignore local test files (optional)
+test/
+tests/
