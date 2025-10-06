@@ -16,22 +16,22 @@
       background-color: #d5e1ef;
     }
 
-    .main {
+    .qr_box {
       border: solid white;
       border-radius: 20px;
       width: 320px;
-      height: 500px;
       margin: 80px auto;
       background-color: white;
       box-shadow: 10px 10px 10px rgb(120,120,120,0.2);
     }
    
-    .codeimg {
+    .qr_img {
       display: block;
       margin: 15px auto;
+      width: 92%;
     }
 
-    .codetext_1 {
+    .text_1 {
       margin: 20px 20px;
       text-align: center;
       font-size: 20px;
@@ -40,7 +40,7 @@
       color: #0e1d34;
     }
 
-    .codetext_2 {
+    .text_2 {
       margin: 20px 20px;
       text-align: center;
       font-size: 15px;
@@ -48,15 +48,34 @@
       font-weight: 400;
       color: #83888c;
     }
+
+    @media screen and (max-width: 375px) {
+      .qr_box {
+        margin: 60px auto;
+      }
+    }
+
+    @media screen and (max-width: 345px) {
+      .qr_box {
+        width: 290px;
+        margin: 60px auto 40px auto;
+      }
+      .text_1 {
+        font-size: 19px;
+      }
+      .text_2 {
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <div class = "main">
+  <div class = "qr_box">
     
-    <img class = "codeimg" src="design/code.jpg" alt="code">
-    <p class="codetext_1">Improve your front-end skills by building projects</p>
-    <p class="codetext_2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <img class = "qr_img" src="design/code.jpg" alt="code">
+    <p class="text_1">Improve your front-end skills by building projects</p>
+    <p class="text_2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
    
   </div>
   
