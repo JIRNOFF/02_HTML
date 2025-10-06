@@ -21,12 +21,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](images/Screen_01.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JIRNOFF/02_HTML)
-- Live Site URL: [Add live site URL here](https://jirnoff.github.io/02_HTML/)
+- Solution URL: [solution URL here](https://github.com/JIRNOFF/02_HTML)
+- Live Site URL: [live site URL here](https://jirnoff.github.io/02_HTML/)
 
 ## My process
 
@@ -38,27 +36,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Just start...
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -67,8 +47,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://jirnoff.github.io/02_HTML/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JIRNOFF)
+- Website - [JIRNOFF](https://jirnoff.github.io/02_HTML/)
+- Frontend Mentor - [JIRNOFF](https://www.frontendmentor.io/profile/JIRNOFF)
 
 ## Acknowledgments
 
